@@ -1,3 +1,17 @@
+#todo_list {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 .complete_list_item {
     text-decoration: line-through;
+}
+
+.list_item {
+    margin: 10px;
+    padding: 5px;
+}
+
+.list_item button {
+    margin: 5px;
 }
