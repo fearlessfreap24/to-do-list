@@ -15,6 +15,7 @@ function addToDo(){
     
     todo_list_item_remove_btn = document.createElement("BUTTON")
     todo_list_item_remove_btn.innerText = "Remove"
+    todo_list_item_remove_btn.setAttribute("onclick", `removeListItem(${todo_count})`)
     todo_list_item_div.appendChild(todo_list_item_remove_btn)
 
     todo_list.appendChild(todo_list_item_div)
