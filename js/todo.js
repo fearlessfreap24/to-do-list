@@ -24,7 +24,9 @@ function addToDo(){
 }
 
 function removeListItem(item_number) {
-    console.log(`Remove item number ${item_number}`)
+    // console.log(`Remove item number ${item_number}`)
+    document.getElementById(`todo_list_item_${item_number}`).remove()
+    
 }
 
 
